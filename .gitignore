@@ -1,0 +1,28 @@
+# Sensitive config — never commit real credentials
+config.h
+secrets.h
+
+# Arduino build artifacts
+build/
+*.elf
+*.bin
+*.hex
+*.map
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# VS Code / IDE
+.vscode/
+*.code-workspace
+
+# Arduino IDE cache
+.arduino15/
+
+# PlatformIO
+.pio/
+tests/build/
+
+# Host test binary
+tests/test_logic
